@@ -7,7 +7,7 @@ let value = ''
 
 resetButton.addEventListener('click', () => {
     for (let index = 0; index < rows.length; index++) {
-        rows[index].removeAttribute('style')
+        reset(rows[index])
     }
 })
 
@@ -19,11 +19,7 @@ picker.on('change', function(r, g, b, a) {
     }
 
     value = this.source.value
-
-    console.log(typeof value);
 });
-
-
 
 rows.forEach(element => {
     element.addEventListener('mousedown', () =>  {
@@ -33,13 +29,6 @@ rows.forEach(element => {
             element.removeAttribute('style')
     })
 })
-
-function addNode(element) {
-    if(element.classList.contains('shape'))
-        return element.classList.remove('shape')
-    else
-        return element.classList.add('shape')
-}
 
 function reset(element) {
     return element.removeAttribute('style')
