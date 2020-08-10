@@ -15,7 +15,7 @@ body {
     font-size: 25px;
 }
 
-.heading .reset {
+.heading .button {
     width: 8rem;
     padding: 3px 7px;
     line-height: 1.6;
@@ -53,12 +53,11 @@ body {
 }
 
 .app {
-    width: 50vw;
+    max-width: 90vw;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(20, 1fr);
     grid-column-gap: 0;
-    margin: 10px auto;
 }
   
 .app .row {
