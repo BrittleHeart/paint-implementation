@@ -1,0 +1,24 @@
+{
+  "name": "paint",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Bartosz Pazdur",
+    "email": "b.pazdur@onet.pl",
+    "url": "http://bartoszpazdur.pl"
+  },
+  "version": "1.0.0",
+  "description": "Simple paint project with color picker and vanilla javascript",
+  "main": "index.html",
+  "scripts": {},
+  "dependencies": {
+    "@taufik-nurrohman/color-picker": "^2.1.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "javascript",
+    "paint"
+  ]
+}
