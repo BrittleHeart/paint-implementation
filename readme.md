@@ -13,3 +13,7 @@ npm install
 If you have server installed on your [Visual Studio Code](https://code.visualstudio.com/), run it
 
 Or if u just want to have fun open **index.html** in your favourite browser and have fun 🤓
+
+## Database connection
+
+Still in progress
